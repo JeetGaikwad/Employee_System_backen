@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+    <form class="form" action="/submitted" method="POST">
+        <div class="flex-column">
+          <label>Employee Full Name</label></div>
+          <div class="inputForm">
+            <input placeholder="Enter Full Name" name="emp_name"  class="input" type="text">
+          </div>
+        
+        <div class="flex-column">
+          <label>Job Title</label></div>
+          <div class="inputForm">
+            <input placeholder="Enter Job Title" name="job_title" class="input" type="text">
+          </div>
+        
+        <div class="flex-column">
+          <label>Phone Number</label></div>
+          <div class="inputForm">        
+            <input placeholder="1234-567-890" name="contact_main" maxlength="10" class="input" type="tel">
+          </div>
+
+        <div class="flex-column">
+            <label>Email</label></div>
+            <div class="inputForm">        
+              <input placeholder="Enter your Email" name="email" class="input" type="email">
+        </div>
+
+        <div class="flex-column">
+            <label>Address</label></div>
+            <div class="inputForm">
+              <textarea placeholder="Enter your Address" name="address" class="input"></textarea>
+        </div>
+
+        <div class="flex-column">
+            <label>City</label></div>
+            <div class="inputForm">        
+              <input placeholder="Enter City" class="input" name="city" type="text">
+        </div>
+
+        <div class="flex-column">
+            <label>State</label></div>
+            <div class="inputForm">        
+              <input placeholder="Enter State" class="input" name="state" type="text">
+        </div>
+
+        <div class="flex-column">
+            <label>Primary Emergency Contact</label></div>
+            <div class="inputForm">        
+              <input placeholder="Enter Name" class="input" name="emg_contact1" type="text">
+        </div>
+
+        <div class="flex-column">
+            <label>Phone Number</label></div>
+            <div class="inputForm">        
+            <input placeholder="1234-567-890" name="contact1" maxlength="10" class="input" type="tel">
+        </div>        
+        <div class="flex-column">
+            <label>Relationship</label></div>
+            <div class="inputForm">        
+              <input placeholder="Enter you relation" name="relation1" class="input" type="text">
+        </div>
+
+        <div class="flex-column">
+            <label>Secondary Emergency Contact</label></div>
+            <div class="inputForm">        
+              <input placeholder="Enter Name" class="input" name="emg_contact2" type="text">
+        </div>
+
+        <div class="flex-column">
+            <label>Phone Number</label></div>
+            <div class="inputForm">        
+            <input placeholder="1234-567-890" maxlength="10" name="contact2" class="input" type="tel">
+        </div>        
+
+        <div class="flex-column">
+            <label>Relationship</label></div>
+            <div class="inputForm">        
+              <input placeholder="Enter you relation" name="relation2" class="input" type="text">
+        </div>
+
+        <button class="button-submit">Sign In</button>
+    </form>
+</body>
+</html>
